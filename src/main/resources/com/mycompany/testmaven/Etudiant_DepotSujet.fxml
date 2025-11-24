@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="557.0" prefWidth="679.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="com.mycompany.testmaven.Etudiant_DepotSujetController">
+   <children>
+      <Label alignment="CENTER" prefHeight="53.0" prefWidth="679.0" style="-fx-background-color: #1C658C;" text="Déposer un sujet de PFE" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nom1" layoutX="242.0" layoutY="112.0" prefHeight="25.0" prefWidth="258.0" promptText="veuillez entrer le nom de l'étudiant " />
+      <Label layoutX="65.0" layoutY="115.0" text="Nom étudiant 1*">
+         <font>
+            <Font name="Berlin Sans FB" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="prenom1" layoutX="242.0" layoutY="156.0" prefHeight="25.0" prefWidth="258.0" promptText="veuillez entrer le prénom de l'étudiant " />
+      <Label layoutX="65.0" layoutY="159.0" text="Prénom étudiant 1*">
+         <font>
+            <Font name="Berlin Sans FB" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cin1" layoutX="242.0" layoutY="209.0" prefHeight="25.0" prefWidth="258.0" promptText="veuillez entrer le CIN de l'étudiant" />
+      <Label layoutX="65.0" layoutY="212.0" prefHeight="21.0" prefWidth="122.0" text="CIN étudiant 1*">
+         <font>
+            <Font name="Berlin Sans FB" size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="annuler" layoutX="597.0" layoutY="501.0" mnemonicParsing="false" onMouseClicked="#annuler_click" prefHeight="41.0" prefWidth="67.0" style="-fx-background-color: #92A9BD;" text="Annuler" textFill="WHITE" />
+      <Button fx:id="deposer" layoutX="443.0" layoutY="501.0" mnemonicParsing="false" onMouseClicked="#deposer_click" prefHeight="41.0" prefWidth="126.0" style="-fx-background-color: #398AB9;" text="Déposer Sujet" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="nom2" layoutX="242.0" layoutY="256.0" prefHeight="25.0" prefWidth="258.0" promptText="veuillez entrer le nom de l'étudiant " />
+      <Label layoutX="65.0" layoutY="259.0" text="Nom étudiant 2">
+         <font>
+            <Font name="Berlin Sans FB" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="prenom2" layoutX="242.0" layoutY="300.0" prefHeight="25.0" prefWidth="258.0" promptText="veuillez entrer le prénom de l'étudiant " />
+      <Label layoutX="65.0" layoutY="303.0" text="Prénom étudiant 2">
+         <font>
+            <Font name="Berlin Sans FB" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cin2" layoutX="242.0" layoutY="353.0" prefHeight="25.0" prefWidth="258.0" promptText="veuillez entrer le CIN de l'étudiant" />
+      <Label layoutX="65.0" layoutY="356.0" prefHeight="21.0" prefWidth="122.0" text="CIN étudiant 2">
+         <font>
+            <Font name="Berlin Sans FB" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="71.0" text="Les champs marqués avec * sont obligatoires" textFill="#dd1c1c">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="sujet" layoutX="242.0" layoutY="392.0" prefHeight="53.0" prefWidth="258.0" promptText="le sujet de votre PFE" />
+      <TextField fx:id="entreprise" layoutX="242.0" layoutY="463.0" prefHeight="29.0" prefWidth="258.0" promptText="entreprise d'acceuil" />
+      <Label layoutX="65.0" layoutY="391.0" text="Sujet*">
+         <font>
+            <Font name="Berlin Sans FB" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="466.0" text="Entreprise*">
+         <font>
+            <Font name="Berlin Sans FB" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
