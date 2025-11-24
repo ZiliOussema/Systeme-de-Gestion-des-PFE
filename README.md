@@ -35,7 +35,7 @@ Application JavaFX de gestion des Projets de Fin d'Études (PFE) permettant aux 
 
 1. Cloner le repository :
 ```bash
-git clone <url-du-repository>
+git clone https://github.com/ZiliOussema/Systeme-de-Gestion-des-PFE.git
 cd javaproject-main
 ```
 
